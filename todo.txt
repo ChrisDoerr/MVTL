@@ -1,0 +1,8 @@
+
+[TODO]
+
+*   print styles
+    + minimal mobile styles
+
+
+[DONE]
