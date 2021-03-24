@@ -41,3 +41,6 @@
 .mvtl-entry:not(:first-child) {
     margin-top:             1em;
 }
+.mvtl-entry h3 {
+    margin-top:             0;
+}
