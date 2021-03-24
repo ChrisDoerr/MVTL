@@ -1,7 +1,50 @@
 
 .mvtl {
-    display:    block;
-    margin:     1em 0;
-    padding:    0;
-    list-style: none;
+    display:            block;
+    margin:             1em 0;
+    padding:            0;
+    list-style:         none;
+}
+.mvtl li {
+    position:           relative;
+    display:            block;
+    list-style-type:    none;
+}
+.mvtl li::before {
+    position:           absolute;
+    top:                0;
+    bottom:             0;
+    left:               0;
+    width:              5px;
+    background-color: #de421a;
+    content:            '';
+}
+.mvtl-event {
+    position:           relative;
+    display:            inline-block;
+    margin:             5px 0;
+    padding:            0.5em;
+    width:              400px;
+    left:               25px;
+    background-color:  #EAEAEA;
+}
+.mvtl-event h3 {
+    margin:             0;
+}
+.mvtl-event::after {
+    position:           absolute;
+    top:                0;
+    left:               -35px;
+    width:              16px;
+    height:             16px;
+    background:         #fff;
+    border:             4px solid #de421a;
+    border-radius:      50%;
+    content:            "";
+}
+.mvtl-time {
+    position:           absolute;
+    top:                8px; /* half of .mvtl-event:after height */
+    left:               -58px;
+    width:              16px;
 }

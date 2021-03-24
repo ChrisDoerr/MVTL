@@ -12,6 +12,11 @@
                 color:              #000;
                 font-family:        "Roboto", "Open Sans", sans-serif;
             }
+            #DemoTimeline {
+                display:            block;
+                margin:             1em auto;
+                width:              600px;
+            }
         </style>
         <link rel="stylesheet" href="./mvtl.css" />
     </head>
@@ -20,13 +25,19 @@
         <section id="DemoTimeline">
             <h2>Demo Timeline</h2>
             <ul class="mvtl mvtl-order-newToOld">
-                <li data-time="2021" class="mvtl-right">
-                    <h3>Entry 1</h3>
-                    <p>This is what happened back then..</p>
+                <li class="mvtl-right">
+                    <div class="mvtl-time">2021</div>
+                    <div class="mvtl-event">
+                        <h3>Entry 1</h3>
+                        <p>This is what happened back then..</p>
+                    </div>
                 </li>
-                <li data-time="2020" class="mvtl-left">
-                    <h3>Entry 2</h3>
-                    <p>Another event took place this very year.</p>
+                <li class="mvtl-left">
+                    <div class="mvtl-time">2020</div>
+                    <div class="mvtl-event" data-time="2020">
+                        <h3>Entry 2</h3>
+                        <p>Another event took place this very year.</p>
+                    </div>
                 </li>
             </ul>
         </section><!-- end #DemoTimeline -->
