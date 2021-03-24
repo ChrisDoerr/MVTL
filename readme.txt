@@ -10,3 +10,4 @@ The only "smell" is that ROWS are not represented
 as such kind of a structure in the HTML code.
 This -feels- wrong but maybe it is not.
 
+v1.0
