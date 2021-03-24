@@ -27,6 +27,9 @@
     background-color:       #C00;
     content:                '';
 }
+.mvtl-row-visuals.mvtl-lastRowItem span:after {
+    display:                none;
+}
 
 .mvtl-row-entries {
     margin-bottom:          3em;
