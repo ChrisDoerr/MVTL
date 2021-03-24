@@ -6,6 +6,10 @@
     gap:                    0 0;
 }
 
+.mvtl-row-time {
+  text-align:               right;
+}
+
 .mvtl-row-visuals {
     position:               relative;
     align-self:             stretch;
