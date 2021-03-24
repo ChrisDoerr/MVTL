@@ -7,33 +7,35 @@
 }
 
 .mvtl-row-visuals {
+    position:               relative;
     align-self:             stretch;
     justify-self:           center;
 }
 .mvtl-row-visuals span {
-    display:            inline-block;
-    width:              1em;
-    height:             1em;
-    border:             5px solid #C00;
-    border-radius:      50%;
-    background-color:   #C00;
+    display:                inline-block;
+    width:                  1em;
+    height:                 1em;
+    border:                 5px solid #C00;
+    border-radius:          50%;
 }
 .mvtl-row-visuals span:after {
-    position:           absolute;
-    margin-left:        2px;
-    width:              5px;
-    height:             100%;
-    background-color:   #C00;
-    content:            '';
+    position:               absolute;
+    top:                    1.4em;
+    bottom:                 0;
+    margin-left:            2px;
+    width:                  5px;
+    background-color:       #C00;
+    content:                '';
 }
 
 .mvtl-row-entries {
-    margin-bottom:          2em;
+    margin-bottom:          3em;
 }
 .mvtl-entry {
     display:                block;
     padding:                0.5em;
     background-color:       #FFF;
+    border-top:             1px solid #EEE;
     box-shadow:             0px 0px 5px #EEE;
 }
 .mvtl-entry:not(:first-child) {
